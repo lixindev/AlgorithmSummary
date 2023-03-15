@@ -1,0 +1,103 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="15.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <Import Project="$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props" Condition="Exists('$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props')" />
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProjectGuid>{7EAAEF6E-3954-4AE5-9CD4-3C92DC92825A}</ProjectGuid>
+    <OutputType>Exe</OutputType>
+    <RootNamespace>AlgorithmSummary</RootNamespace>
+    <AssemblyName>AlgorithmSummary</AssemblyName>
+    <TargetFrameworkVersion>v4.0</TargetFrameworkVersion>
+    <FileAlignment>512</FileAlignment>
+    <Deterministic>true</Deterministic>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="System" />
+    <Reference Include="System.Core" />
+    <Reference Include="System.Xml.Linq" />
+    <Reference Include="System.Data.DataSetExtensions" />
+    <Reference Include="Microsoft.CSharp" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Xml" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="BFS\ShortestPathAllKeys.cs" />
+    <Compile Include="Common\TrieNode.cs" />
+    <Compile Include="DataStructure\AllOne.cs" />
+    <Compile Include="Common\ListNode.cs" />
+    <Compile Include="DataStructure\AsteroidCollision.cs" />
+    <Compile Include="DataStructure\DeleteNode.cs" />
+    <Compile Include="DataStructure\MagicDictionary.cs" />
+    <Compile Include="DataStructure\MagicDictionaryII.cs" />
+    <Compile Include="DataStructure\MyCalendarI.cs" />
+    <Compile Include="DataStructure\MyCalendarII.cs" />
+    <Compile Include="DataStructure\ReplaceWords.cs" />
+    <Compile Include="DataStructure\Skiplist.cs" />
+    <Compile Include="DataStructure\LargestComponentSize.cs" />
+    <Compile Include="DynamicProgramming\FindSubstringInWraproundString.cs" />
+    <Compile Include="DynamicProgramming\Makesquare.cs" />
+    <Compile Include="DynamicProgramming\MinRefuelStops.cs" />
+    <Compile Include="DynamicProgramming\SoupServings.cs" />
+    <Compile Include="DynamicProgramming\SplitArraySameAverage.cs" />
+    <Compile Include="FastPower\Divide.cs" />
+    <Compile Include="DynamicProgramming\CoinChange.cs" />
+    <Compile Include="DynamicProgramming\KnapsackProblem.cs" />
+    <Compile Include="FindDuplicates.cs" />
+    <Compile Include="Dichotomy\FindKthLargest.cs" />
+    <Compile Include="FindKthNumber.cs" />
+    <Compile Include="Dichotomy\FindMedianSortedArrays.cs" />
+    <Compile Include="DataStructure\FindTheWinner.cs" />
+    <Compile Include="GCD.cs" />
+    <Compile Include="GenerateParenthesis.cs" />
+    <Compile Include="GeometryAlgorithm\OuterTrees.cs" />
+    <Compile Include="RandomBlackList.cs" />
+    <Compile Include="TopologicalSort\SequenceReconstruction.cs" />
+    <Compile Include="TwoPointer\MaxArea.cs" />
+    <Compile Include="SildingWindow\MaxConsecutiveAnswers.cs" />
+    <Compile Include="MergeKLists.cs" />
+    <Compile Include="FastPower\MyPow.cs" />
+    <Compile Include="BFS\NetworkBecomesIdle.cs" />
+    <Compile Include="SildingWindow\NumSubarrayProductLessThanK.cs" />
+    <Compile Include="BFS\PacificAtlantic.cs" />
+    <Compile Include="PriorityQueue.cs" />
+    <Compile Include="Program.cs" />
+    <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="RandomIndex.cs" />
+    <Compile Include="DataStructure\RandomizedSet.cs" />
+    <Compile Include="ReverseNumber.cs" />
+    <Compile Include="TwoScan\NextGreaterElement.cs" />
+    <Compile Include="TwoScan\ShortestToChar.cs" />
+    <Compile Include="TwoPointer\SortArrayByParity.cs" />
+    <Compile Include="Sort\HeapSort.cs" />
+    <Compile Include="Sort\InsertionSort.cs" />
+    <Compile Include="Sort\QuickSort.cs" />
+    <Compile Include="ThreeSum.cs" />
+    <Compile Include="TraverseBinaryTree.cs" />
+    <Compile Include="Common\TreeNode.cs" />
+    <Compile Include="TwoPointer\FindRightInterval.cs" />
+    <Compile Include="TwoSum.cs" />
+    <Compile Include="WiggleSort.cs" />
+  </ItemGroup>
+  <ItemGroup />
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+</Project>
