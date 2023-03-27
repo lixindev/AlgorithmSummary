@@ -54,7 +54,9 @@
     <Compile Include="DataStructure\ReplaceWords.cs" />
     <Compile Include="DataStructure\Skiplist.cs" />
     <Compile Include="DataStructure\LargestComponentSize.cs" />
+    <Compile Include="DynamicProgramming\CountSubstrings.cs" />
     <Compile Include="DynamicProgramming\FindSubstringInWraproundString.cs" />
+    <Compile Include="DynamicProgramming\LongestCommonSubsequence.cs" />
     <Compile Include="DynamicProgramming\Makesquare.cs" />
     <Compile Include="DynamicProgramming\MinRefuelStops.cs" />
     <Compile Include="DynamicProgramming\SoupServings.cs" />
